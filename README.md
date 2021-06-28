@@ -15,6 +15,8 @@ Algumas validações foram incluídas que, apesar de não explícitos nas instru
 - Não é possível pousar fora do planalto ou demais posições consideradas inválidas pela sonda
 - Não é possível enviar instruções que a sonda não consegue entender (diferentes de M, L ou R)
 
+Por outro lado, restrições de pouso em posições já ocupadas e/ou colisões não foram implementadas nessa versão, apesar de poderem ser construídas caso desejado. Seriam necessárias algumas mudanças na abordagem do cálculo de posição final.
+
 ## Rodando os testes
 Para os testes automatizados, foi utilizada o pacote `pytest`. Em situações normais, quando usando algum framework web como Django ou Flask, outras opções seriam mais adequadas. Como nenhum framework está sendo utilizado, é necessário instalar este pacote. 
 
