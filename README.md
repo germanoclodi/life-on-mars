@@ -14,3 +14,14 @@ Algumas validações foram incluídas que, apesar de não explícitos nas instru
 - Não é possível pousar em uma posição considerada inválida pela sonda (diferentes de N, E, S ou W)
 - Não é possível pousar fora do planalto ou demais posições consideradas inválidas pela sonda
 - Não é possível enviar instruções que a sonda não consegue entender (diferentes de M, L ou R)
+
+## Rodando os testes
+Para os testes automatizados, foi utilizada o pacote `pytest`. Em situações normais, quando usando algum framework web como Django ou Flask, outras opções seriam mais adequadas. Como nenhum framework está sendo utilizado, é necessário instalar este pacote. 
+
+`pip3 install pytest`
+
+Uma vez instalado, para rodar os testes basta rodar no terminal, na mesma pasta do projeto, o comando
+
+`pytest ./tests/run.py`
+
+Observação: para que alguns testes rodem, é essencial que seja mantida a integridade do arquivo input_tests.txt!
