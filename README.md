@@ -24,4 +24,4 @@ Uma vez instalado, para rodar os testes basta rodar no terminal, na mesma pasta 
 
 `pytest ./tests/run.py`
 
-Observação: para que alguns testes rodem, é essencial que seja mantida a integridade do arquivo input_tests.txt!
+Observação: para que alguns testes rodem, é essencial que seja mantida a integridade dos arquivos do diretório tests/test_input_files!
