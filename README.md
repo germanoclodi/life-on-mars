@@ -9,7 +9,7 @@ Para executar, neste mesmo diretório, rode no terminal
 No qual "input.txt" é o arquivo com as instruções sobre o planalto, sobre o pouso e sobre o controle
 
 ## Informações específicas
-Algumas validações foram incluídas que, apesar de não explícitos nas instruções do problema, modificam alguns comportamentos considerados errados e exepcionais:
+Algumas validações foram incluídas que, apesar de não explícitas nas instruções do problema, modificam alguns comportamentos considerados errados e excepcionais:
 - Não é possível definir um planalto com valores negativos ou decimais
 - Não é possível pousar em uma posição considerada inválida pela sonda (diferentes de N, E, S ou W)
 - Não é possível pousar fora do planalto ou demais posições consideradas inválidas pela sonda
